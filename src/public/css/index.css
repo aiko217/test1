@@ -1,0 +1,127 @@
+/* ===== 基本設定 ===== */
+.contact-form__content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fff;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+/* ===== 見出し ===== */
+.contact-form__heading h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #5c443a;
+}
+
+/* ===== 各フォームグループ ===== */
+.form__group {
+    margin-bottom: 30px;
+}
+
+.form__group-title {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.form__label--item {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.form__label--required {
+    color: #e54b4b;
+    font-size: 14px;
+}
+
+/* ===== テキスト入力（名前・電話・住所など） ===== */
+.form__input--text input,
+.form__input--select select,
+.form__input--textarea textarea {
+    width: 100%;
+    max-width: 240px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+.form__input--text input:focus,
+.form__input--textarea textarea:focus,
+.form__input--select select:focus {
+    border-color: #b38972;
+    outline: none;
+}
+
+/* ===== 名前・電話番号：横並び対応 ===== */
+.form__input--name,
+.form__input--tel {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.form__input--name>div,
+.form__input--tel>div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===== ラジオボタン ===== */
+.form__input--radio {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 15px;
+}
+
+.form__input--radio input[type="radio"] {
+    margin-right: 5px;
+    transform: scale(1.2);
+    accent-color: #6a4e42;
+}
+
+/* ===== セレクトボックス ===== */
+.form__input--select select {
+    max-width: 300px;
+}
+
+/* ===== テキストエリア ===== */
+.form__input--textarea textarea {
+    min-height: 200px;
+    resize: vertical;
+}
+
+/* ===== エラーメッセージ ===== */
+.form__error {
+    color: #e54b4b;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+/* ===== 送信ボタン ===== */
+.form__button {
+    text-align: center;
+    margin-top: 30px;
+}
+    
+.form__button-submit {
+    padding: 10px 40px;
+    background-color: #6a4e42;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+    
+.form__button-submit:hover {
+    background-color: #5c443a;
+}
+    
+  

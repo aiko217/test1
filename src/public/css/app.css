@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1e8df;
+    font-family: 'Helvetica Neue', cans-serif;
+}
+
+.header {
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 70px;
+}
+
+.header__title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #6a4e42;
+}
+
+.header-button-area {
+    position: absolute;
+    right: 20px;
+}
+
+.header__button {
+    padding: 6px 12px;
+    border: 1px solid #6a4e42;
+    background-color: transparent;
+    color: #c4c1c1;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
